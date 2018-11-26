@@ -1,0 +1,119 @@
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.sticky {
+  position: sticky;
+  top: 70px;
+}
+
+.menu {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.menu > li > a {
+  display: block;
+  color: #6c757d;
+}
+
+.menu > li > a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu > li > a.active::after {
+  content: "";
+  height: 2px;
+  background-color: #EB6D00;
+  display: block;
+}
+
+.menu > li > a.active {
+  color: #EB6D00;
+}
+
+a.active:not([href]):not([tabindex]):focus,
+a.active:not([href]):not([tabindex]):hover {
+  color: #EB6D00;
+}
+
+.cart {
+  border-radius: 0.25rem;
+}
+
+.main {
+  padding: 20px 0 20px;
+}
+
+.container-fluid {
+  padding-top: 50px;
+}
+
+i.add:hover {
+  cursor: pointer;
+}
+
+.fa-plus {
+  color: #EB6D00;
+}
+
+.fa-minus {
+  color: #EB6D00;
+}
+
+.product-img {
+  height: 80px;
+  width: 80px;
+}
+
+.main .list-group-item {
+  border: 1px solid rgba(0,0,0,.05);
+}
+
+.main .list-group-item:hover {
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.75rem 1px rgba(0, 0, 0, .125);
+  border: 1px solid rbga(0, 0, 0, .125);
+}
+
+.order {
+  padding: .75rem 1.25rem;
+}
+
+.btn-orange {
+  background-color: #ff9d4e;
+  border-color: #ff9d4e;
+  color: #fff;
+}
+
+.badge-custom {
+  background-color: #ff9d4e;
+  color: #fff;
+}
+
+.btn-orange:hover {
+  background-color: #EB6D00;
+}
+
+.description {
+  font-size: 80%;
+}
+
+.small-90 {
+  font-size: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
