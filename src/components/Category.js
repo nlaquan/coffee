@@ -11,12 +11,14 @@ const Category = ({
   toggle,
 }) => {
   const content = items.map(item => (
-    <Item
-      item={item} key={`${item.name}${item.id}`}
-      addToCart={addToCart}
-      toggle={toggle}
-      show={show}
-    />
+    <li className="list-group-item d-flex" key={`${item.name}${item.id}`}>
+      <Item
+        item={item}
+        addToCart={addToCart}
+        toggle={toggle}
+        show={show}
+      />
+    </li>
   ));
   return (
     <div id={id} className="mb-3">

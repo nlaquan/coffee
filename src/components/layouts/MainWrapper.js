@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { includes, isEmpty } from 'lodash';
-import Menu from './Menu';
+import CategoryList from './CategoryList';
 import Cart from '../Cart';
 import Main from '../Main';
 import { categories } from '../../data';
@@ -43,7 +43,7 @@ class MainWrapper extends Component {
     return (
       <div className="bg-white container-fluid">
         <div className="row justify-content-between">
-          <Menu categories={categories} />
+          <CategoryList categories={categories} />
           <Main addToCart={this.addToCart} />
           <Cart cart={list} addToCart={this.addToCart} />
         </div>

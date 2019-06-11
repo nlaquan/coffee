@@ -1,0 +1,8 @@
+.scroll-item {
+  outline: none;
+  cursor: pointer;
+}
+
+.active:focus {
+  color: #EB6D00;
+}

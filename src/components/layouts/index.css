@@ -1,0 +1,9 @@
+.menu-item .active ::after {
+  content: "";
+  color: red;
+  width: calc(100% - 3rem);
+  position: absolute;
+  background: red;
+  display: block;
+  height: 3px;
+}
