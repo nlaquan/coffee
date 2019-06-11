@@ -6,7 +6,7 @@ import { shape, func, bool } from 'prop-types';
 function MenuItem({ isActive, onActive, children }) {
   return (
     <li
-      className={`menu-item mb-3 ${isActive && 'menu-item--active'}`}
+      className={`menu-item mb-3 ${isActive ? 'menu-item--active' : ''}`}
       onClick={onActive}
     >
       {children}
