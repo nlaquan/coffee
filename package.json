@@ -1,25 +1,15 @@
 {
-  "name": "coffee2",
+  "name": "coffee",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/register": "^7.0.0",
-    "babel-plugin-dynamic-import-node": "^2.2.0",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "bootstrap": "^4.1.3",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
     "express": "^4.16.4",
     "ignore-styles": "^5.0.1",
     "lodash": "^4.17.11",
-    "node-sass": "^4.10.0",
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-loadable": "^5.5.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-scripts": "2.1.1",
     "react-scroll": "^1.7.10",
     "reactstrap": "^6.5.0"
@@ -39,5 +29,11 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
 }

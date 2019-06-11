@@ -1,19 +1,9 @@
 import React, { Component } from 'react';
 import { includes, isEmpty } from 'lodash';
-import Loadable from 'react-loadable';
 import Menu from './Menu';
 import Cart from '../Cart';
 import Main from '../Main';
 import { categories } from '../../data';
-import Loading from './Loading';
-// import Test from './Test';
-
-const LoadableComponent = Loadable({
-  loader: () => import('../Main'),
-  loading: () => {
-    return <h3>Loading...</h3>;
-  },
-});
 
 class MainWrapper extends Component {
   constructor() {
